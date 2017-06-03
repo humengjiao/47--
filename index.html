@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			 html,body{
+			 	width:100%;
+			 }
+			 .demo{
+			 	width:100%;
+			 	height: 500px;
+			 	background: #ccc;
+			 	display: flex;
+			 	align-items: center;
+			 	justify-content: center;
+			    flex-flow: row wrap;
+			 }
+			 /*.demo p{
+			 	flex:1;
+			 	background: #333;
+			 	
+			 }
+			 .demo p:nth-child(3){
+			 	  width:100px;
+			 }
+			 .demo p:not(:last-child){
+			 	margin-right:10px;
+			 }*/
+			 .a{
+			 	width:200px;
+			 
+			 }
+			 p:not(.a){
+			 /*	 flex:1 0 33.33%;*/
+			 	
+			 	 background:yellow;
+			 	 margin:5px;
+			 	 width:400px;
+			 }
+			 .four{
+			 	align-self: flex-start;
+			 	flex-shrink: 2;
+			 }
+			
+		</style>
+	</head>
+	<body>
+		<div class="demo">
+			<p class="a">aaa</p>
+			<p class="a">bbb</p>
+			<p>ccc</p>
+			<p class="four">ddd</p>
+			<p>ddd</p>
+		</div>
+	</body>
+</html>
