@@ -1,57 +1,153 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
-		<style type="text/css">
-			 html,body{
-			 	width:100%;
-			 }
-			 .demo{
-			 	width:100%;
-			 	height: 500px;
-			 	background: #ccc;
-			 	display: flex;
-			 	align-items: center;
-			 	justify-content: center;
-			    flex-flow: row wrap;
-			 }
-			 /*.demo p{
-			 	flex:1;
-			 	background: #333;
-			 	
-			 }
-			 .demo p:nth-child(3){
-			 	  width:100px;
-			 }
-			 .demo p:not(:last-child){
-			 	margin-right:10px;
-			 }*/
-			 .a{
-			 	width:200px;
-			 
-			 }
-			 p:not(.a){
-			 /*	 flex:1 0 33.33%;*/
-			 	
-			 	 background:yellow;
-			 	 margin:5px;
-			 	 width:400px;
-			 }
-			 .four{
-			 	align-self: flex-start;
-			 	flex-shrink: 2;
-			 }
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script>
+			document.documentElement.style.fontSize = innerWidth / 16 + "px"
 			
-		</style>
+		</script>
 	</head>
 	<body>
-		<div class="demo">
-			<p class="a">aaa</p>
-			<p class="a">bbb</p>
-			<p>ccc</p>
-			<p class="four">ddd</p>
-			<p>ddd</p>
+		<div class="container">
+			<section class="section">
+				<div class="logo"><img src="img/logo.png"/></div>
+				<div class="banner"><img src="img/banner1.png"/></div>
+				<div class="purpose"><img src="img/index_01.png"/></div>
+				<div class="synopsis">					
+					<ul class="pri-ul swiper-wrapper">
+						<li class="pri-li swiper-slide" >
+							<h4>企业简介</h4>
+							<p class="english">COMPANY PROFILE</p>
+							<span></span>
+							<p>凡功教育由首位同时获得哈佛大学MPA、沃顿商学院MBA学
+								位的中国人——蔡开凡先生在他的家乡海南创立，专注于为
+								10-18岁的中国孩子提供世界一流的教育资源以及教育服务。
+								我们用心关注每一位学生的个性发展，在帮助学生取得学术成
+								就的同时，唤醒学生的生命感和价值感，并全面培养学生的品格。
+							</p>
+							<p class="bar">
+								作为由全美教育协会领导的21世纪技能合作组织（P21）成员，
+								凡功教育不仅与美国中小学共享最新的优质教学资源和教育服务，
+								更得到了培生（Pearson）和霍顿·米夫林哈考特（HMHG）等
+								世界级教育出版集团的直接支持。
+							</p>
+						</li>
+						<li class="pri-li swiper-slide">
+							<p>
+								
+							</p>
+							<p class="bar">凡功推出的美国语文课产品，采用全球最佳教学实践经验，
+								给学生原汁原味的美式课堂体验以及无以伦比的个人关注，
+								同时也实现了国内中小学英语考点的全覆盖，重点训练并提升学生的思辨
+								能力、创新能力、沟通表达能力与团队合作能力，
+								从而让学生在追逐梦想的征途中胸有成竹、运筹帷幄、游刃有余。
+							</p>
+							<p class="bar">凡功坚信，秉承“谦虚、勤奋、精确”的校风，
+								每位学生在完成课程后，都将成长为品学兼优、
+								意志坚定、风趣幽默的生活斗士。
+							</p>
+						</li>
+					
+					</ul>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="Founder">
+					
+					<ul class="pri-ul swiper-wrapper">
+						<li class="pri-li swiper-slide">
+							<h4>创始人</h4>
+							<p class="english">FOUNDER</p>
+							<span></span>
+							<p>蔡开凡，毕业于哈佛大学，青年企业家。他先后就读于复旦大学、
+								 芬兰赫尔辛基大学、美国宾夕法尼亚大学、哈佛大学，拥有经济学硕士、
+								 工商管理硕士、公共管理硕士等三个硕士学位，共接受十年高等学历教育。
+							</p>
+							<p class="bar">蔡开凡出生于海南乐东，本科就读于复旦大学生命科学学院，曾任校学生会副主席。
+							2000年跨专业考研进入复旦大学经济学院世界经济研究所，读研期间赴芬兰赫尔辛基大
+								学交流学习一年，获复旦大学经济学硕士。2008年赴美就读于宾夕法尼亚大学
+							沃顿商学院（The Wharton School），所获荣誉包括沃
+							</p>
+						</li>
+						<li class="pri-li swiper-slide">
+							<p style="text-indent: 0;">
+								
+								顿创始人奖学金、
+								校友冠名创业奖学金、院长名单（Director's List）、优秀毕业生
+								（Graduation with Honors）。2009年赴哈佛大学就读肯尼迪政府学院
+								（Harvard Kennedy School）与沃顿商学院合办的三年制双学位项目（HKS MPA-Wharton 
+								MBA dual degreeprogram），获哈佛高额奖学金。
+								2011年5月，蔡开凡成为首位同时获得沃顿商学院工商管理硕士（MBA）和哈
+								佛大学公共管理硕士（MPA）学位的中国人。
+ 
+							</p>
+							<p class="bar">
+				       蔡开凡从研究生毕业就开始创业，先后涉足信息
+								技术、制造业和教育领域，曾任欧比数码科技（上海）有限公司董事总经理、
+								北京拓维国际教育咨询有限公司首席执行官兼首席知识官，并在国际咨询公司、
+								私募股权基金和上市公司任职。2016年12月，蔡开凡创立了凡功教育并任董事长兼校长，
+								同时还续			        
+							</p>
+							
+							
+							
+							
+						</li>
+						
+						<li class="pri-li swiper-slide">
+							
+							<p style="text-indent: 0;">
+								任上海猜凡机械有限公司董事长、上海凡之说教育信息咨询
+								有限公司董事长、北京拓维国际教育咨询有限公司高级董事。	
+</p>
+							
+							
+							<p class="bar">蔡开凡历时5年以“自述成长故事”方式所著的
+								《一条通往哈佛的非凡之路》已由上海教育出版社于2013年10月出版发行。
+								该书得到了包括曾培养出2001年诺贝尔经济学奖获得者的哈佛大学博士生导
+								师泽克豪泽教授在内的许多中外教授和欧洲企业家的大力推荐。
+</p>
+<p class="bar">蔡开凡曾多次在全国范围开展励志公益主题演讲，分享其求学和创业经历，
+						推崇思维方式训练和素质教育。2010年5月，为激励家乡学子，蔡开凡在
+						母校乐东中学设立了“蔡开凡奖学金”，一是为了激励成绩优秀的学生，
+						二是奖励进取心强的学生，三是鼓励学习进步的学生。
+</p>
+    							
+						</li>
+						
+						
+						
+					</ul>
+					<div class="swiper-pagination"></div>
+				</div>	
+				<div class="road_map"> <img src="img/index_02.png"/></div>
+				<div class="environment">
+					<h4>校区环境</h4>
+					<p class="english">CAMPUS ENVIRONMENT</p>
+					<ul>
+						<li><img src="img/index_03.png"/></li>
+						<li><img src="img/01_13.png"/></li>
+						<li><img src="img/index_05.png"/></li>
+					</ul>
+				</div>
+				<div class="phone"><img src="img/index_06.png"/></div>
+				<div class="copyright"><img src="img/ywk_06.png"/></div>
+			</section>
 		</div>
+		<script>
+			var myswiper=new Swiper(".synopsis",{
+				
+				pagination:".swiper-pagination"
+			})
+			var myFounder=new Swiper(".Founder",{
+				
+				pagination:".swiper-pagination"
+			})
+		</script>
 	</body>
 </html>

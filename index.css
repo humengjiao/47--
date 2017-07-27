@@ -1,0 +1,288 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.container .section {
+  width: 100%;
+  overflow: auto;
+}
+
+.container .section .logo {
+  width: 100%;
+  height: 3.3rem;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.container .section .logo img {
+  display: block;
+  width: 5.75rem;
+  height: auto;
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.3rem;
+}
+
+.container .section .banner {
+  width: 100%;
+}
+
+.container .section .banner img {
+  display: block;
+  width: 100%;
+}
+
+.container .section .purpose {
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.container .section .purpose img {
+  display: block;
+  width: 100%;
+}
+
+.container .section .synopsis {
+  width: 100%;
+  height: 13.5rem;
+  margin-top: 0.25rem;
+  background: #D9D9D9;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .section .synopsis .pri-ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  transition: transform 1s;
+}
+
+.container .section .synopsis .pri-ul .pri-li {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  padding: 0.75rem 1rem 1rem 1rem;
+  -webkit-flex-shrink: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.container .section .synopsis .pri-ul .pri-li h4 {
+  width: 100%;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: normal;
+}
+
+.container .section .synopsis .pri-ul .pri-li .english {
+  text-indent: 0;
+  font-size: 0.5rem;
+  width: 100%;
+  font-weight: normal;
+}
+
+.container .section .synopsis .pri-ul .pri-li span {
+  display: block;
+  width: 100%;
+  border-bottom: 0.1rem solid #a51c30;
+  margin: 0.25rem 0 0.4rem 0;
+}
+
+.container .section .synopsis .pri-ul .pri-li p {
+  text-indent: 2em;
+  font-family: "苹方";
+  font-size: 0.5rem;
+  line-height: 0.9rem;
+  text-align: left;
+}
+
+.container .section .synopsis .pri-ul .pri-li .bar {
+  margin-top: 0.25rem;
+}
+
+.container .section .synopsis .swiper-pagination {
+  margin-top: -10%;
+  margin-left: 41%;
+}
+
+.container .section .synopsis .swiper-pagination .swiper-pagination-bullet {
+  display: inline-block;
+  width: 1rem;
+  height: 0.1rem;
+  background: black;
+  opacity: 0.5;
+  margin-left: 0.25rem;
+}
+
+.container .section .synopsis .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 0.5;
+  background: #a51c30;
+}
+
+.container .section .Founder {
+  width: 100%;
+  height: 13.5rem;
+  margin-top: 0.25rem;
+  background: #293352;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .section .Founder .pri-ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  transition: transform 1s;
+}
+
+.container .section .Founder .pri-ul .pri-li {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  padding: 0.75rem 1rem 1rem 1rem;
+  -webkit-flex-shrink: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.container .section .Founder .pri-ul .pri-li h4 {
+  width: 100%;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: normal;
+  color: #FFF;
+}
+
+.container .section .Founder .pri-ul .pri-li .english {
+  text-indent: 0;
+  font-size: 0.5rem;
+  width: 100%;
+  font-weight: normal;
+  color: #FFF;
+}
+
+.container .section .Founder .pri-ul .pri-li span {
+  display: block;
+  width: 100%;
+  border-bottom: 0.1rem solid #a51c30;
+  margin: 0.25rem 0 0.4rem 0;
+}
+
+.container .section .Founder .pri-ul .pri-li p {
+  text-indent: 2em;
+  font-family: "苹方";
+  font-size: 0.5rem;
+  line-height: 0.9rem;
+  text-align: left;
+  color: #FFF;
+}
+
+.container .section .Founder .pri-ul .pri-li .bar {
+  margin-top: 0.25rem;
+}
+
+.container .section .Founder .swiper-pagination {
+  margin-top: -10%;
+  margin-left: 37%;
+}
+
+.container .section .Founder .swiper-pagination .swiper-pagination-bullet {
+  display: inline-block;
+  width: 1rem;
+  height: 0.1rem;
+  background: black;
+  opacity: 0.5;
+  margin-left: 0.25rem;
+}
+
+.container .section .Founder .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 0.5;
+  background: white;
+}
+
+.container .section .road_map {
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.container .section .road_map img {
+  display: block;
+  width: 100%;
+}
+
+.container .section .environment {
+  padding-top: 0.9rem;
+  background: black;
+  height: 10rem;
+  width: 16rem;
+  color: white;
+}
+
+.container .section .environment h4 {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+.container .section .environment .english {
+  text-indent: 0;
+  text-align: center;
+  font-family: "苹方";
+  font-size: 0.5rem;
+}
+
+.container .section .environment ul {
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  height: 6rem;
+  width: 15rem;
+  margin: auto;
+  margin-bottom: 1.2rem;
+}
+
+.container .section .environment ul li {
+  list-style: none;
+  float: left;
+  margin: 0.25rem;
+}
+
+.container .section .environment ul li img {
+  height: 6.25rem;
+  width: 4.35rem;
+}
+
+.container .section .phone {
+  width: 100%;
+}
+
+.container .section .phone img {
+  display: block;
+  width: 100%;
+}
+
+.container .section .copyright {
+  width: 100%;
+}
+
+.container .section .copyright img {
+  display: block;
+  width: 100%;
+}
